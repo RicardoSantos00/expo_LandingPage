@@ -1,0 +1,143 @@
+@media (max-width: 900px) {
+    .fluid,
+    .container {
+        width: 800px
+    }
+    .menu {
+        position: fixed;
+        height: 50px;
+    }
+    .menu .fluid ul li {
+        padding-left: 120px;
+    }
+    .menu .fluid .right {
+        display: none;
+    }
+    .menu .fluid .lista-menu {
+        width: 100%;
+    }
+    .title {
+        width: 150px;
+        font-size: 35px;
+    }
+    .titulo .fluid .expo {
+        margin-left: 330px;
+    }
+    .titulo .container .fluid img {
+        width: 140px;
+        margin-left: 350px;
+        margin-top: 50px;
+    }
+    .banner .fluid .anuncio {
+        margin-left: 56px;
+        width: 730px;
+        margin-right: 80px;
+    }
+    .banner .fluid p {
+        margin-left: 25px;
+        width: 803px;
+    }
+    h3 {
+        padding-left: 70px;
+    }
+    .sobre .fluid .sobre-expo {
+        width: 100px;
+        margin-left: 350px;
+    }
+    .sobre .container .fluid p {
+        width: 750px;
+        margin-left: 63px;
+    }
+    .sobre .container .fluid .img-1 {
+        margin-top: -20px;
+    }
+    .sobre .container .fluid .img-2 {
+        margin-top: -20px;
+    }
+    .sobre .container .fluid .link {
+        margin-top: -15px;
+        padding-left: 10px;
+        margin-right: 170px;
+    }
+    .parceiros .fluid .parc-expo {
+        width: 145px;
+        margin-left: 350px;
+    }
+    .parceiros .container .fluid .left {
+        float: none;
+        margin-left: 220px;
+    }
+    .parceiros .container .fluid .right {
+        float: none;
+        margin-left: 220px;
+    }
+    .parceiros .fluid .left span {
+        margin-left: -15px;
+        margin-top: 35px;
+    }
+    .programação {
+        height: 1095px;
+    }
+    .programação .fluid {
+        width: 100%;
+    }
+    .programação .prog-expo {
+        width: 5px;
+        margin-left: 320px;
+    }
+    .programação .fluid .table {
+        width: 40%;
+        margin-left: 50px;
+    }
+    .linha-cima {
+        width: 790px;
+    }
+}
+
+@media (max-width: 1220px) and (min-width: 901px) {
+    .container,
+    .fluid {
+        width: 970px;
+    }
+    .title * {}
+}
+
+
+/*@media (max-width: 600px) {
+    .menu .lista-menu {
+        background: #f0f0f0;
+        padding: 1em;
+        margin: 0;
+        height: 100%;
+        max-width: 320px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -90%;
+        transition: left 0.3s ease-out;
+    }
+    .menu .menu-ativo {
+        left: 0;
+    }
+}*/
+
+@media not all and (max-width: 600px) {
+    .menu-abrir,
+    .menu-fechar {
+        display: none;
+    }
+}
+
+
+/*@media (max-width: 600px) {
+    .menu-ativo:after {
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.4);
+    }
+}*/
